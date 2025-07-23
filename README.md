@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Listing App
 
-## Getting Started
 
-First, run the development server:
+A job listing dashboard built with Next.js and TypeScript. Users can view a list of jobs and click to view detailed job descriptions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Card Component
+<img src="https://github.com/user-attachments/assets/f676de9f-8e40-4341-8d83-2c33c624499d" width="800" />
+<p>This shows how the card component UI looks like.</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Job Listing Page
+<img src="https://github.com/user-attachments/assets/9e4b9a0d-fac8-4d9a-8983-35214e1cba66" width="800" />
+<p>This shows how the job listing page looks like.</p>
 
-## Learn More
+### Job Description Page
+<img src="https://github.com/user-attachments/assets/df2485fa-1767-4865-abb4-7c575d60a9ee" width="800" />
+<p>This shows how the job description detail page looks like.</p>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- TypeScript
+- Tailwind CSS
+- JSON for data
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo  
+   `git clone https://github.com/finot05/job-listing-dashboard.git`
+
+2. Install dependencies  
+   `npm install`
+
+3. Run the app  
+   `npm run dev`
+
+---
+
+## ✨ Features
+
+- Job cards with avatar, title, company, location, and job type.
+- Hover effects for UI interaction.
+- Separate detail page for each job.
+
+---
+
+## 📁 Folder Structure
+
+- `/components` - UI Components like JobCard
+- `/data` - Job listings JSON
+- `/app` - Pages and routing
+
+---
